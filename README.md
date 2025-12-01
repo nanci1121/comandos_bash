@@ -31,6 +31,12 @@ Operaciones comunes con archivos y directorios:
 - Creación y escritura de archivos
 - Comprobación de contenido
 
+### 6. `git_auto.sh`
+Herramienta de automatización para Git:
+- Ejecuta secuencialmente `add`, `commit` y `push`.
+- Requiere un mensaje de commit como argumento.
+- Uso: `./git_auto.sh "Mensaje del commit"`
+
 ## Cómo ejecutar los scripts
 
 Asegúrate de que los scripts tengan permisos de ejecución:
